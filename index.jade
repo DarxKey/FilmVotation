@@ -1,0 +1,56 @@
+mixin card
+   .main-card
+      form(name="invia")
+         .top-card
+            h2 Matteo
+         .middle-card
+            .film-one
+               label Film num-1
+               span Value
+               select
+                  option(value="10") 10
+                  option(value="5") 5
+                  option(value="1") 1
+            .film-two
+               label Film num-2
+               span Value
+               select
+                  option(value="10") 10
+                  option(value="5") 5
+                  option(value="1") 1
+            .film-three
+               label Film num-3
+               span Value
+               select
+                  option(value="10") 10
+                  option(value="5") 5
+                  option(value="1") 1
+         .bottom-card
+            input(type="submit" value="Vota")
+
+doctype html
+head
+   title Film Votation
+   link(rel="stylesheet" href="css/main.css" type="text/css")
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+body
+   
+   .menu
+      .icon-close
+         img(src="img/close.png")
+      ul
+         a(href="aggiungi.php"): li Aggiungi
+         a(href="aggiungi.php"): li Reset
+   
+   .container 
+      .main-content
+         h1 Film Votation
+         .icon-menu
+            i Menu
+         
+         +card  
+         +card  
+         +card  
+   
+   script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript")
+   script(src="js/app.js" type="text/javascript")
