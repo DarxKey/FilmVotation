@@ -1,16 +1,18 @@
 html {
   height: 100%;
+  width: 100%;
   margin: 0 auto; }
 
 body {
-  left: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
-  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
   height: 100%;
-  z-index: 1; }
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; }
 
 .menu {
   background: #202024 url("../img/black-thread.png") repeat left top;
@@ -21,13 +23,8 @@ body {
   z-index: 3; }
 
 .container {
-  background-color: white;
-  height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   width: 100%;
+  background-color: white;
   margin: 0 auto; }
 
 .menu ul {
@@ -65,19 +62,127 @@ body {
   text-decoration: none;
   text-transform: uppercase; }
 
-.icon-menu i {
-  margin-right: 5px; }
+.best-movie {
+  color: #ff2670;
+  font-weight: bold; }
 
-.main-content {
-  max-width: 960px;
-  margin: 0 auto;
-  position: relative;
-  background-color: pink; }
+@media screen and (max-width: 768px) {
+  .main-card {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    color: #777;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25); }
+    .main-card .top-card {
+      background-color: #3E4FB2;
+      color: #fff; }
+      .main-card .top-card h3 {
+        margin-top: 0;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 5px; }
+    .main-card .middle-card {
+      padding: 20px; }
+      .main-card .middle-card .film-one, .main-card .middle-card .film-two, .main-card .middle-card .film-three {
+        line-height: 18px;
+        margin-bottom: 12px; }
+        .main-card .middle-card .film-one label, .main-card .middle-card .film-two label, .main-card .middle-card .film-three label {
+          display: inline-block;
+          width: 60%; }
+        .main-card .middle-card .film-one .valori, .main-card .middle-card .film-two .valori, .main-card .middle-card .film-three .valori {
+          width: 40%;
+          display: inline-block;
+          float: right; }
+          .main-card .middle-card .film-one .valori span, .main-card .middle-card .film-two .valori span, .main-card .middle-card .film-three .valori span {
+            display: inline-block;
+            width: 50%;
+            text-align: right; }
+          .main-card .middle-card .film-one .valori select, .main-card .middle-card .film-two .valori select, .main-card .middle-card .film-three .valori select {
+            display: inline-block;
+            width: auto;
+            position: absolute;
+            right: 5%; }
+    .main-card .bottom-card {
+      text-align: right;
+      padding: 0 20px 20px 20px; }
+      .main-card .bottom-card button {
+        width: 150px;
+        height: 30px;
+        background-color: #ff2670;
+        color: #fff;
+        border-radius: 2px;
+        border: 1px solid #ff2670;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+        -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+        box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25); } }
+@media screen and (min-width: 769px) {
+  body {
+    background-color: #ccc; }
 
-.main-card {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  background-color: red;
-  width: 100%;
-  margin: 0 auto; }
+  .main-card {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    background-color: #fff;
+    color: #777;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+    margin-bottom: 20px; }
+    .main-card .top-card {
+      background-color: #3E4FB2;
+      color: #fff; }
+      .main-card .top-card h3 {
+        margin-top: 0;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 5px; }
+    .main-card .middle-card {
+      padding: 20px; }
+      .main-card .middle-card .film-one, .main-card .middle-card .film-two, .main-card .middle-card .film-three {
+        line-height: 18px;
+        margin-bottom: 12px; }
+        .main-card .middle-card .film-one label, .main-card .middle-card .film-two label, .main-card .middle-card .film-three label {
+          display: inline-block;
+          width: 80%; }
+        .main-card .middle-card .film-one .valori, .main-card .middle-card .film-two .valori, .main-card .middle-card .film-three .valori {
+          width: 20%;
+          display: inline-block;
+          float: right; }
+          .main-card .middle-card .film-one .valori span, .main-card .middle-card .film-two .valori span, .main-card .middle-card .film-three .valori span {
+            display: inline-block;
+            width: 50%;
+            text-align: right;
+            margin-left: -10px; }
+          .main-card .middle-card .film-one .valori select, .main-card .middle-card .film-two .valori select, .main-card .middle-card .film-three .valori select {
+            display: inline-block;
+            width: auto;
+            position: absolute;
+            right: 5%; }
+    .main-card .bottom-card {
+      text-align: right;
+      padding: 0 20px 20px 20px; }
+      .main-card .bottom-card button {
+        width: 150px;
+        height: 30px;
+        background-color: #ff2670;
+        color: #fff;
+        border-radius: 2px;
+        border: 1px solid #ff2670;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+        -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+        box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25); } }

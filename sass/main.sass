@@ -1,16 +1,20 @@
+@import 'variables'
+
 html
    height: 100%
+   width: 100%
    margin: 0 auto
 
 body
-   left: 0
-   margin: 0
-   overflow: hidden
-   position: relative
-   font-family: 'Open Sans', sans-serif
+   margin: 0 auto
+   font-family: 'Roboto', sans-serif
    font-size: 16px
+   -webkit-font-smoothing: antialiased
    height: 100%
-   z-index: 1
+   width: 100%
+
+h1, h2, h3, h4, h5, h6
+   margin-top: 0
 
 .menu
    background: #202024 url("../img/black-thread.png") repeat left top
@@ -21,14 +25,8 @@ body
    z-index: 3
 
 .container
-   //background-image: url('../img/bg.png')
-   background-color: white
-   height: 100%
-   -webkit-background-size: cover
-   -moz-background-size: cover
-   -o-background-size: cover
-   background-size: cover
    width: 100%
+   background-color: white
    margin: 0 auto
 
 .menu ul
@@ -66,21 +64,163 @@ body
    text-decoration: none
    text-transform: uppercase
 
-.icon-menu i
-   margin-right: 5px
+
+.best-movie
+   color: $btn-bottom-card
+   font-weight: bold
+
+@media screen and (max-width: 768px)
+   .main-card
+      display: block
+      width: 100%
+      position: relative
+      background-color: $bg-middle-card
+      color: $text-middle-card
+      -webkit-box-shadow: $box-shadow
+      -moz-box-shadow: $box-shadow
+      box-shadow: $box-shadow
+
+      .top-card
+         background-color: $bg-top-card
+         color: $text-top-card
+
+         h3
+            margin-top: 0
+            padding: 20px
+            text-align: center
+            font-size: 18px
+            letter-spacing: 5px
+
+      .middle-card
+         padding: 20px
+
+         .film-one, .film-two, .film-three
+            line-height: 18px
+            margin-bottom: 12px
+
+            label
+               display: inline-block
+               width: 60%
+
+            .valori
+               width: 40%
+               display: inline-block
+               float: right
+
+               span
+                  display: inline-block
+                  width: 50%
+                  text-align: right
+
+               select
+                  display: inline-block
+                  width: auto
+                  position: absolute
+                  right: 5%
+
+      .bottom-card
+         text-align: right
+         padding: 0 20px 20px 20px
+
+         button
+            width: 150px
+            height: 30px
+            background-color: $btn-bottom-card
+            color: $text-bottom-card
+            border-radius: 2px
+            border: 1px solid $border-bottom-card
+            cursor: pointer
+
+            text-transform: uppercase
+            font-weight: bold
+            letter-spacing: 1px
+
+            -webkit-box-shadow: $box-shadow
+            -moz-box-shadow: $box-shadow
+            box-shadow: $box-shadow
 
 
-//roba mia
-.main-content
-   max-width: 960px
-   margin: 0 auto
-   position: relative
-   background-color: pink
 
-.main-card
-   position: relative
-   display: inline-block
-   text-align: center
-   background-color: red
-   width: 100%
-   margin: 0 auto
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px)
+   body
+      background-color: #ccc
+
+   .main-card
+      display: block
+      margin: 0 auto
+      width: 90%
+      position: relative
+      background-color: $bg-middle-card
+      color: $text-middle-card
+      -webkit-box-shadow: $box-shadow
+      -moz-box-shadow: $box-shadow
+      box-shadow: $box-shadow
+      margin-bottom: 20px
+
+      .top-card
+         background-color: $bg-top-card
+         color: $text-top-card
+
+         h3
+            margin-top: 0
+            padding: 20px
+            text-align: center
+            font-size: 18px
+            letter-spacing: 5px
+
+      .middle-card
+         padding: 20px
+
+         .film-one, .film-two, .film-three
+            line-height: 18px
+            margin-bottom: 12px
+
+            label
+               display: inline-block
+               width: 80%
+
+            .valori
+               width: 20%
+               display: inline-block
+               float: right
+
+               span
+                  display: inline-block
+                  width: 50%
+                  text-align: right
+                  margin-left: -10px
+
+               select
+                  display: inline-block
+                  width: auto
+                  position: absolute
+                  right: 5%
+
+      .bottom-card
+         text-align: right
+         padding: 0 20px 20px 20px
+
+         button
+            width: 150px
+            height: 30px
+            background-color: $btn-bottom-card
+            color: $text-bottom-card
+            border-radius: 2px
+            border: 1px solid $border-bottom-card
+            cursor: pointer
+
+            text-transform: uppercase
+            font-weight: bold
+            letter-spacing: 1px
+
+            -webkit-box-shadow: $box-shadow
+            -moz-box-shadow: $box-shadow
+            box-shadow: $box-shadow
