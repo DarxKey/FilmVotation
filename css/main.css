@@ -9,7 +9,8 @@ body {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  background-color: #eee; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
@@ -24,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   width: 100%;
-  background-color: white;
   margin: 0 auto; }
 
 .menu ul {
@@ -65,6 +65,17 @@ h1, h2, h3, h4, h5, h6 {
 .best-movie {
   color: #ff2670;
   font-weight: bold; }
+
+.votazioni {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #5bc0de; }
+  .votazioni h2 {
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase; }
 
 @media screen and (max-width: 768px) {
   .main-card {
