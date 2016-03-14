@@ -231,6 +231,19 @@ button.btn-fucsia {
         padding: 20px;
         text-align: center;
         font-size: 18px; }
+      .main-card .top-card input[type="text"] {
+        width: 50%;
+        display: block;
+        margin: 0 auto 18px auto;
+        padding: 20px;
+        border: none;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #3E4FB2; }
+        .main-card .top-card input[type="text"]:focus {
+          outline: none; }
     .main-card .middle-card {
       padding: 20px; }
       .main-card .middle-card .film-one, .main-card .middle-card .film-two, .main-card .middle-card .film-three {
@@ -239,6 +252,13 @@ button.btn-fucsia {
         .main-card .middle-card .film-one label, .main-card .middle-card .film-two label, .main-card .middle-card .film-three label {
           display: inline-block;
           width: 80%; }
+        .main-card .middle-card .film-one input[type="text"], .main-card .middle-card .film-two input[type="text"], .main-card .middle-card .film-three input[type="text"] {
+          width: 70%;
+          border: none;
+          font-size: 16px;
+          color: #777; }
+          .main-card .middle-card .film-one input[type="text"]:focus, .main-card .middle-card .film-two input[type="text"]:focus, .main-card .middle-card .film-three input[type="text"]:focus {
+            outline: none; }
         .main-card .middle-card .film-one .valori, .main-card .middle-card .film-two .valori, .main-card .middle-card .film-three .valori {
           width: 20%;
           display: inline-block;
@@ -256,3 +276,11 @@ button.btn-fucsia {
     .main-card .bottom-card {
       text-align: right;
       padding: 0 20px 20px 20px; } }
+section.greeting {
+  background-color: pink;
+  text-align: center;
+  margin: 0 auto; }
+  section.greeting .top-greeting {
+    padding: 20px; }
+    section.greeting .top-greeting h3 {
+      padding: 20px; }

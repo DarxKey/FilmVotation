@@ -1,0 +1,14 @@
+mixin add-card
+   .main-card
+      form(name="add-card")
+         .top-card
+            input(type="text" placeholder="Inserisci il tuo nome" required).uppercase.let-xs-small#nome
+         .middle-card
+            .film-one
+               input(type="text" placeholder="Inserisci il primo film" required).capitalize#film-uno
+            .film-two
+               input(type="text" placeholder="Inserisci il secondo film" required).capitalize#film-due
+            .film-three
+               input(type="text" placeholder="Inserisci il terzo film" required).capitalize#film-tre
+         .bottom-card
+            button.btn-fucsia(type="submit" value="Invia") Invia

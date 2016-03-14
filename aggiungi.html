@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <head>
   <title>Film Votation</title>
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css"/>
 </head>
 <body>
   <div class="menu">
-    <div class="icon-close"><img src="img/close.png"></div>
-    <ul><a href="aggiungi.html">
-        <li>Aggiungi</li></a><a href="aggiungi.php">
+    <div class="icon-close"><img src="img/close.png"/></div>
+    <ul><a href="index.html">
+        <li>Homepage</li></a><a href="aggiungi.html">
+        <li>Aggiungi</li></a><a href="#">
         <li>Reset</li></a></ul>
   </div>
   <div class="container"> 
@@ -22,13 +23,34 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
       <div class="cont-carte">
         <div class="main-card">
-          <form name="invia">
+          <form name="add-card">
             <div class="top-card">
-              <h3>Matteo</h3>
+              <input type="text" placeholder="Inserisci il tuo nome" required="required" id="nome" class="uppercase let-xs-small"/>
             </div>
             <div class="middle-card">
               <div class="film-one">
-                <label class="best-movie">Il Curioso Caso Di Benjamin Button</label>
+                <input type="text" placeholder="Inserisci il primo film" required="required" id="film-uno" class="capitalize"/>
+              </div>
+              <div class="film-two">
+                <input type="text" placeholder="Inserisci il secondo film" required="required" id="film-due" class="capitalize"/>
+              </div>
+              <div class="film-three">
+                <input type="text" placeholder="Inserisci il terzo film" required="required" id="film-tre" class="capitalize"/>
+              </div>
+            </div>
+            <div class="bottom-card">
+              <button type="submit" value="Invia" class="btn-fucsia">Invia</button>
+            </div>
+          </form>
+        </div>
+        <div class="main-card">
+          <form name="invia">
+            <div class="top-card">
+              <h3 class="uppercase let-xs-small">Matteo</h3>
+            </div>
+            <div class="middle-card">
+              <div class="film-one">
+                <label class="capitalize best-movie">Il Curioso Caso Di Benjamin Button</label>
                 <div class="valori"><span>Value</span>
                   <select>
                     <option value="10">10</option>
@@ -38,7 +60,7 @@
                 </div>
               </div>
               <div class="film-two">
-                <label>Film num-2</label>
+                <label class="capitalize">Film num-2</label>
                 <div class="valori"><span>Value</span>
                   <select>
                     <option value="10">10</option>
@@ -48,7 +70,91 @@
                 </div>
               </div>
               <div class="film-three">
-                <label>Film num-3</label>
+                <label class="capitalize">Film num-3</label>
+                <div class="valori"><span>Value</span>
+                  <select>
+                    <option value="10">10</option>
+                    <option value="5">5</option>
+                    <option value="1">1</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-card">
+              <button type="submit" value="Vota" class="btn-fucsia">Vota</button>
+            </div>
+          </form>
+        </div>
+        <div class="main-card">
+          <form name="invia">
+            <div class="top-card">
+              <h3 class="uppercase let-xs-small">Matteo</h3>
+            </div>
+            <div class="middle-card">
+              <div class="film-one">
+                <label class="capitalize best-movie">Il Curioso Caso Di Benjamin Button</label>
+                <div class="valori"><span>Value</span>
+                  <select>
+                    <option value="10">10</option>
+                    <option value="5">5</option>
+                    <option value="1">1</option>
+                  </select>
+                </div>
+              </div>
+              <div class="film-two">
+                <label class="capitalize">Film num-2</label>
+                <div class="valori"><span>Value</span>
+                  <select>
+                    <option value="10">10</option>
+                    <option value="5">5</option>
+                    <option value="1">1</option>
+                  </select>
+                </div>
+              </div>
+              <div class="film-three">
+                <label class="capitalize">Film num-3</label>
+                <div class="valori"><span>Value</span>
+                  <select>
+                    <option value="10">10</option>
+                    <option value="5">5</option>
+                    <option value="1">1</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-card">
+              <button type="submit" value="Vota" class="btn-fucsia">Vota</button>
+            </div>
+          </form>
+        </div>
+        <div class="main-card">
+          <form name="invia">
+            <div class="top-card">
+              <h3 class="uppercase let-xs-small">Matteo</h3>
+            </div>
+            <div class="middle-card">
+              <div class="film-one">
+                <label class="capitalize best-movie">Il Curioso Caso Di Benjamin Button</label>
+                <div class="valori"><span>Value</span>
+                  <select>
+                    <option value="10">10</option>
+                    <option value="5">5</option>
+                    <option value="1">1</option>
+                  </select>
+                </div>
+              </div>
+              <div class="film-two">
+                <label class="capitalize">Film num-2</label>
+                <div class="valori"><span>Value</span>
+                  <select>
+                    <option value="10">10</option>
+                    <option value="5">5</option>
+                    <option value="1">1</option>
+                  </select>
+                </div>
+              </div>
+              <div class="film-three">
+                <label class="capitalize">Film num-3</label>
                 <div class="valori"><span>Value</span>
                   <select>
                     <option value="10">10</option>
@@ -92,34 +198,35 @@
           </div>
         </div>
       </div>
-      <div class="votazioni">
-        <h2 class="uppercase let-small">La Decisione Finale</h2>
-        <div id="rnd-nome" class="sez-random">
-          <div class="pres-random">
-            <h4>Randomizzatore Nome Prescelto</h4>
-            <p>Clicca il pulsante qui sotto per scoprire chi dovr&agrave; premere il pulsante che svelever&agrave; il film di questa sera!</p>
-          </div>
-          <div class="btn-random">
-            <button id="btn-rnd-nome" type="button" class="btn-fucsia">Randomizza</button>
-          </div>
-          <div class="testo-random">
-            <h5 id="testo-rnd-nome">Matteo!</h5>
+      <section class="greeting">
+        <div class="top-greeting">
+          <h3 class="uppercase let-small">Grazie per aver utilizzato Film Votation</h3>
+          <p>Ora, lascia compilare questa card anche agli altri!</p>
+        </div>
+        <div class="bottom-greeting">
+          <h3 class="uppercase let-small">Applicazione creata da</h3>
+          <div class="pres-creatori">
+            <!--singolo componente Vero-->
+            <div class="pres-singolo">
+              <div class="top-pres-singolo"><img src=""/>
+                <h3>Vero</h3>
+              </div>
+              <div class="bottom-pres-singolo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <!--singolo componente Pilat-->
+            <div class="pres-singolo">
+              <div class="top-pres-singolo"><img src=""/>
+                <h3>Pilat</h3>
+              </div>
+              <div class="bottom-pres-singolo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="rnd-film" class="sez-random">
-          <div class="pres-random">
-            <h4>Randomizzatore Film</h4>
-            <p>Matteo, clicca il pulsante qu&igrave; sotto per scoprire che film, vedrete stasera!</p>
-          </div>
-          <div class="btn-random">
-            <button id="btn-rnd-film" type="button" class="btn-fucsia">Randomizza</button>
-          </div>
-          <div class="testo-random">
-            <h5 id="testo-rnd-nome-film">Matteo</h5>
-            <p id="testo-rnd-film">Il Curioso Caso Di Benjamin Button</p>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
   </div>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
