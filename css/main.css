@@ -33,32 +33,35 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500; }
 
 .menu {
-  background: #202024 url("../img/black-thread.png") repeat left top;
+  background-color: #fff;
   left: -285px;
   height: 100%;
   position: fixed;
   width: 285px;
-  z-index: 3; }
+  z-index: 3;
+  border-right: 1px solid #ccc; }
 
 .container {
   width: 100%;
   margin: 0 auto; }
 
 .menu ul {
-  border-top: 1px solid #636366;
   list-style: none;
   margin: 0;
   padding: 0; }
 
 .menu li {
-  border-bottom: 1px solid #636366;
   line-height: 45px;
   padding-bottom: 3px;
   padding-left: 20px;
-  padding-top: 3px; }
+  padding-top: 3px;
+  color: #000;
+  transition: background 0.25s, font-weight 0.25s; }
+  .menu li:hover {
+    background-color: #eee;
+    font-weight: 700; }
 
 .menu a {
-  color: #fff;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase; }
@@ -98,14 +101,16 @@ button.btn-fucsia {
   .header h1 {
     text-align: center;
     margin-bottom: 0;
-    padding: 40px;
+    padding: 40px 40px 35px 40px;
     color: #fff;
     font-size: 42px; }
   .header .menu-icon {
-    color: #fff;
+    color: #87CEFA;
+    background-color: #fff;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 20px 20px 20px; }
+    padding: 15px 20px;
+    cursor: pointer; }
 
 .main-content {
   background-color: #eee; }

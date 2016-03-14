@@ -8,6 +8,9 @@ var main = function() {
    /*$('body').animate({
       left: "285px"
    }, 200);*/
+    $('.container').animate({
+      opacity: "0.5"
+   }, 200);
 });
 
   /* Then push them back */
@@ -19,6 +22,9 @@ var main = function() {
    /* $('body').animate({
       left: "0px"
    }, 200);*/
+    $('.container').animate({
+      opacity: "1.0"
+   }, 200);
 });
 };
 

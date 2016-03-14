@@ -1,1 +1,1 @@
-var main=function(){$(".menu-icon").click(function(){$(".menu").animate({left:"0px"},200)}),$(".icon-close").click(function(){$(".menu").animate({left:"-285px"},200)})};$(document).ready(main);
+var main=function(){$(".menu-icon").click(function(){$(".menu").animate({left:"0px"},200),$(".container").animate({opacity:"0.5"},200)}),$(".icon-close").click(function(){$(".menu").animate({left:"-285px"},200),$(".container").animate({opacity:"1.0"},200)})};$(document).ready(main);
