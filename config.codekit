@@ -99,7 +99,7 @@
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/variables.sass",
 		"outputAbbreviatedPath": "\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,

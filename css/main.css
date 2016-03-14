@@ -62,6 +62,27 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   text-transform: uppercase; }
 
+.main-card {
+  text-transform: capitalize; }
+  .main-card .top-card h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+
+button.btn-fucsia {
+  width: 150px;
+  height: 30px;
+  background-color: #ff2670;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid #ff2670;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25); }
+
 .best-movie {
   color: #ff2670;
   font-weight: bold; }
@@ -76,6 +97,23 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     padding: 20px;
     text-transform: uppercase; }
+  .votazioni .sez-random {
+    padding: 20px; }
+    .votazioni .sez-random .testo-random h5#testo-rnd-nome-film, .votazioni .sez-random .testo-random h5#testo-rnd-nome {
+      display: inline-block;
+      font-size: 20px;
+      padding: 20px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      letter-spacing: 5px; }
+    .votazioni .sez-random .testo-random h5#testo-rnd-nome-film {
+      border-bottom: 1px dotted white; }
+    .votazioni .sez-random .testo-random p#testo-rnd-film {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      text-transform: capitalize;
+      font-size: 18px;
+      letter-spacing: 3px; }
 
 @media screen and (max-width: 768px) {
   .main-card {
@@ -94,8 +132,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0;
         padding: 20px;
         text-align: center;
-        font-size: 18px;
-        letter-spacing: 5px; }
+        font-size: 18px; }
     .main-card .middle-card {
       padding: 20px; }
       .main-card .middle-card .film-one, .main-card .middle-card .film-two, .main-card .middle-card .film-three {
@@ -119,21 +156,7 @@ h1, h2, h3, h4, h5, h6 {
             right: 5%; }
     .main-card .bottom-card {
       text-align: right;
-      padding: 0 20px 20px 20px; }
-      .main-card .bottom-card button {
-        width: 150px;
-        height: 30px;
-        background-color: #ff2670;
-        color: #fff;
-        border-radius: 2px;
-        border: 1px solid #ff2670;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 1px;
-        -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
-        -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
-        box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25); } }
+      padding: 0 20px 20px 20px; } }
 @media screen and (min-width: 769px) {
   body {
     background-color: #ccc; }
@@ -156,8 +179,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0;
         padding: 20px;
         text-align: center;
-        font-size: 18px;
-        letter-spacing: 5px; }
+        font-size: 18px; }
     .main-card .middle-card {
       padding: 20px; }
       .main-card .middle-card .film-one, .main-card .middle-card .film-two, .main-card .middle-card .film-three {
@@ -182,18 +204,4 @@ h1, h2, h3, h4, h5, h6 {
             right: 5%; }
     .main-card .bottom-card {
       text-align: right;
-      padding: 0 20px 20px 20px; }
-      .main-card .bottom-card button {
-        width: 150px;
-        height: 30px;
-        background-color: #ff2670;
-        color: #fff;
-        border-radius: 2px;
-        border: 1px solid #ff2670;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 1px;
-        -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
-        -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
-        box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25); } }
+      padding: 0 20px 20px 20px; } }
