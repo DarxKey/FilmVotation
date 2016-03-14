@@ -1,0 +1,179 @@
+@import 'variables'
+
+
+
+.main-card
+   text-transform: capitalize
+
+   .top-card h3
+      text-transform: uppercase
+      letter-spacing: 1px
+
+button.btn-fucsia
+   width: 150px
+   height: 30px
+   background-color: $btn-bottom-card
+   color: $text-bottom-card
+   border-radius: 2px
+   border: 1px solid $border-bottom-card
+   cursor: pointer
+
+   text-transform: uppercase
+   font-weight: bold
+   letter-spacing: 1px
+
+   -webkit-box-shadow: $box-shadow
+   -moz-box-shadow: $box-shadow
+   box-shadow: $box-shadow
+
+.best-movie
+   color: $btn-bottom-card
+   font-weight: bold
+
+
+
+
+
+//Media Queries
+@media screen and (max-width: 768px)
+   .main-card
+      display: block
+      width: 100%
+      position: relative
+      background-color: $bg-middle-card
+      color: $text-middle-card
+      -webkit-box-shadow: $box-shadow
+      -moz-box-shadow: $box-shadow
+      box-shadow: $box-shadow
+
+      .top-card
+         background-color: $bg-top-card
+         color: $text-top-card
+
+         h3
+            margin-top: 0
+            padding: 20px
+            text-align: center
+            font-size: 18px
+
+      .middle-card
+         padding: 20px
+
+         .film-one, .film-two, .film-three
+            line-height: 18px
+            margin-bottom: 12px
+
+            label
+               display: inline-block
+               width: 60%
+
+            .valori
+               width: 40%
+               display: inline-block
+               float: right
+
+               span
+                  display: inline-block
+                  width: 50%
+                  text-align: right
+
+               select
+                  display: inline-block
+                  width: auto
+                  position: absolute
+                  right: 5%
+
+      .bottom-card
+         text-align: right
+         padding: 0 20px 20px 20px
+
+
+
+
+
+
+
+@media screen and (min-width: 769px)
+   body
+      background-color: #ccc
+
+   .cont-carte .main-card:last-child
+      margin-bottom: 50px
+
+   .main-card
+      display: block
+      margin: 0 auto
+      width: 70%
+      position: relative
+      background-color: $bg-middle-card
+      color: $text-middle-card
+      -webkit-box-shadow: $box-shadow
+      -moz-box-shadow: $box-shadow
+      box-shadow: $box-shadow
+      margin-bottom: 30px
+
+      .top-card
+         background-color: $bg-top-card
+         color: $text-top-card
+
+         h3
+            margin-top: 0
+            padding: 20px
+            text-align: center
+            font-size: 18px
+
+         input[type="text"]
+            width: 50%
+            display: block
+            margin: 0 auto 18px auto
+            padding: 20px
+            border: none
+            text-align: center
+            font-size: 18px
+            font-weight: 500
+            color: $text-top-card
+            background-color: $bg-top-card
+
+            &:focus
+               outline: none
+
+      .middle-card
+         padding: 20px
+
+         .film-one, .film-two, .film-three
+            line-height: 18px
+            margin-bottom: 12px
+
+            label
+               display: inline-block
+               width: 80%
+
+            input[type="text"]
+               width: 70%
+               border: none
+               font-size: 16px
+               color: $text-middle-card
+
+               &:focus
+                  outline: none
+
+            .valori
+               width: 20%
+               display: inline-block
+               float: right
+
+               span
+                  display: inline-block
+                  width: 50%
+                  text-align: right
+                  margin-left: -10px
+
+               select
+                  display: inline-block
+                  width: auto
+                  position: absolute
+                  right: 5%
+
+      .bottom-card
+         text-align: right
+         padding: 0 20px 20px 20px
