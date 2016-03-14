@@ -7,13 +7,15 @@ body {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   width: 100%;
   background-color: #eee; }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0; }
+  margin-top: 0;
+  font-weight: 500; }
 
 .menu {
   background: #202024 url("../img/black-thread.png") repeat left top;
@@ -87,33 +89,60 @@ button.btn-fucsia {
   color: #ff2670;
   font-weight: bold; }
 
+.header {
+  background-color: red; }
+  .header h1 {
+    text-align: center; }
+  .header .menu-icon {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px 20px 20px; }
+
+.main-content {
+  background-color: #eee; }
+  .main-content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 5px;
+    color: #3E4FB2; }
+
 .votazioni {
   display: inline-block;
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  background-color: #5bc0de; }
+  background-color: #5bc0de;
+  color: #efefef; }
   .votazioni h2 {
     font-weight: bold;
     padding: 20px;
     text-transform: uppercase; }
   .votazioni .sez-random {
     padding: 20px; }
-    .votazioni .sez-random .testo-random h5#testo-rnd-nome-film, .votazioni .sez-random .testo-random h5#testo-rnd-nome {
-      display: inline-block;
-      font-size: 20px;
-      padding: 20px;
-      margin-bottom: 0;
-      text-transform: uppercase;
-      letter-spacing: 5px; }
-    .votazioni .sez-random .testo-random h5#testo-rnd-nome-film {
-      border-bottom: 1px dotted white; }
-    .votazioni .sez-random .testo-random p#testo-rnd-film {
-      margin-top: 20px;
-      margin-bottom: 50px;
-      text-transform: capitalize;
-      font-size: 18px;
-      letter-spacing: 3px; }
+    .votazioni .sez-random .pres-random h4 {
+      font-size: 18px; }
+    .votazioni .sez-random .pres-random p {
+      font-size: 16px; }
+    .votazioni .sez-random .btn-random {
+      padding: 15px; }
+    .votazioni .sez-random .testo-random {
+      margin: 20px auto; }
+      .votazioni .sez-random .testo-random h5#testo-rnd-nome-film, .votazioni .sez-random .testo-random h5#testo-rnd-nome {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px; }
+      .votazioni .sez-random .testo-random h5#testo-rnd-nome-film {
+        border-bottom: 1px dotted white; }
+      .votazioni .sez-random .testo-random p#testo-rnd-film {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-transform: capitalize;
+        font-size: 18px;
+        letter-spacing: 3px; }
 
 @media screen and (max-width: 768px) {
   .main-card {

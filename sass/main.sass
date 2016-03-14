@@ -9,6 +9,7 @@ body
    margin: 0 auto
    font-family: 'Roboto', sans-serif
    font-size: 16px
+   font-weight: 400
    -webkit-font-smoothing: antialiased
    height: 100%
    width: 100%
@@ -16,6 +17,7 @@ body
 
 h1, h2, h3, h4, h5, h6
    margin-top: 0
+   font-weight: 500
 
 .menu
    background: #202024 url("../img/black-thread.png") repeat left top
@@ -101,6 +103,30 @@ button.btn-fucsia
    font-weight: bold
 
 
+
+//header
+.header
+   background-color: red
+
+   h1
+      text-align: center
+
+   .menu-icon
+      text-align: center
+      text-transform: uppercase
+      padding: 10px 20px 20px 20px
+
+
+.main-content
+   background-color: #eee
+
+   h2
+      text-align: center
+      text-transform: uppercase
+      padding: 20px
+      letter-spacing: 5px
+      color: $bg-top-card
+
 //Votazioni
 .votazioni
    display: inline-block
@@ -108,6 +134,7 @@ button.btn-fucsia
    width: 100%
    margin: 0 auto
    background-color: $bg-total
+   color: #efefef
 
    h2
       font-weight: bold
@@ -120,14 +147,16 @@ button.btn-fucsia
       .pres-random
 
          h4
+            font-size: 18px
 
          p
+            font-size: 16px
 
       .btn-random
-
-         button
+         padding: 15px
 
       .testo-random
+         margin: 20px auto
 
          h5#testo-rnd-nome-film, h5#testo-rnd-nome
             display: inline-block
