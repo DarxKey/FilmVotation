@@ -71,6 +71,19 @@ button.btn-fucsia {
         padding: 20px;
         text-align: center;
         font-size: 18px; }
+      .main-card .top-card input[type="text"] {
+        width: 80%;
+        display: block;
+        margin: 0 auto 18px auto;
+        padding: 20px;
+        border: none;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #3E4FB2; }
+        .main-card .top-card input[type="text"]:focus {
+          outline: none; }
     .main-card .middle-card {
       padding: 20px; }
       .main-card .middle-card .film-one, .main-card .middle-card .film-two, .main-card .middle-card .film-three {
@@ -79,6 +92,13 @@ button.btn-fucsia {
         .main-card .middle-card .film-one label, .main-card .middle-card .film-two label, .main-card .middle-card .film-three label {
           display: inline-block;
           width: 60%; }
+        .main-card .middle-card .film-one input[type="text"], .main-card .middle-card .film-two input[type="text"], .main-card .middle-card .film-three input[type="text"] {
+          width: 100%;
+          border: none;
+          font-size: 16px;
+          color: #777; }
+          .main-card .middle-card .film-one input[type="text"]:focus, .main-card .middle-card .film-two input[type="text"]:focus, .main-card .middle-card .film-three input[type="text"]:focus {
+            outline: none; }
         .main-card .middle-card .film-one .valori, .main-card .middle-card .film-two .valori, .main-card .middle-card .film-three .valori {
           width: 40%;
           display: inline-block;
@@ -181,6 +201,60 @@ button.btn-fucsia {
 .let-med {
   letter-spacing: 5px; }
 
+.votazioni {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #5bc0de;
+  color: #efefef; }
+  .votazioni h2 {
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase; }
+  .votazioni .sez-random#rnd-film {
+    background-color: #6495ED; }
+  .votazioni .sez-random {
+    padding: 20px; }
+    .votazioni .sez-random .pres-random h4 {
+      font-size: 18px; }
+    .votazioni .sez-random .pres-random p {
+      font-size: 16px; }
+    .votazioni .sez-random .btn-random {
+      padding: 15px; }
+    .votazioni .sez-random .testo-random {
+      margin: 20px auto; }
+      .votazioni .sez-random .testo-random h5#testo-rnd-nome-film, .votazioni .sez-random .testo-random h5#testo-rnd-nome {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        letter-spacing: 5px; }
+      .votazioni .sez-random .testo-random h5#testo-rnd-nome-film {
+        border-bottom: 1px dotted white; }
+      .votazioni .sez-random .testo-random p#testo-rnd-film {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-transform: capitalize;
+        font-size: 18px;
+        letter-spacing: 3px; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.let-xs-small {
+  letter-spacing: 1px; }
+
+.let-small {
+  letter-spacing: 3px; }
+
+.let-med {
+  letter-spacing: 5px; }
+
 section.greeting {
   background-color: pink;
   text-align: center;
@@ -191,20 +265,32 @@ section.greeting {
       padding: 20px; }
     section.greeting .top-greeting p {
       padding: 20px; }
-  section.greeting .bottom-greeting .pres-creatori .pres-singolo {
-    display: inline-block;
-    width: 40%;
-    margin: 0 auto;
-    padding: 10px; }
-    section.greeting .bottom-greeting .pres-creatori .pres-singolo .top-pres-singolo img {
-      width: 100px;
-      border-radius: 50%; }
-    section.greeting .bottom-greeting .pres-creatori .pres-singolo .top-pres-singolo h3 {
+  section.greeting .bottom-greeting {
+    padding: 0; }
+    section.greeting .bottom-greeting h3 {
       color: #fff; }
-    section.greeting .bottom-greeting .pres-creatori .pres-singolo .bottom-pres-singolo {
-      padding: 5px;
-      border-top: 1px solid #fff; }
+    section.greeting .bottom-greeting .pres-creatori {
+      padding: 15px; }
+      section.greeting .bottom-greeting .pres-creatori .pres-singolo {
+        display: inline-block;
+        width: 40%;
+        margin: 0 auto;
+        padding: 10px; }
+        section.greeting .bottom-greeting .pres-creatori .pres-singolo .top-pres-singolo img {
+          width: 100px;
+          border-radius: 50%; }
+        section.greeting .bottom-greeting .pres-creatori .pres-singolo .top-pres-singolo h3 {
+          margin-top: 12px;
+          color: #fff; }
+        section.greeting .bottom-greeting .pres-creatori .pres-singolo .bottom-pres-singolo {
+          padding: 5px;
+          border-top: 1px solid #fff; }
 
+@media screen and (max-width: 768px) {
+  section.greeting .bottom-greeting .pres-creatori .pres-singolo {
+    width: 90%; }
+    section.greeting .bottom-greeting .pres-creatori .pres-singolo .bottom-pres-singolo {
+      padding: 0px; } }
 html {
   height: 100%;
   width: 100%;
@@ -290,42 +376,3 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     padding: 15px;
     text-align: center; }
-
-.votazioni {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #5bc0de;
-  color: #efefef; }
-  .votazioni h2 {
-    font-weight: bold;
-    padding: 20px;
-    text-transform: uppercase; }
-  .votazioni .sez-random#rnd-film {
-    background-color: #6495ED; }
-  .votazioni .sez-random {
-    padding: 20px; }
-    .votazioni .sez-random .pres-random h4 {
-      font-size: 18px; }
-    .votazioni .sez-random .pres-random p {
-      font-size: 16px; }
-    .votazioni .sez-random .btn-random {
-      padding: 15px; }
-    .votazioni .sez-random .testo-random {
-      margin: 20px auto; }
-      .votazioni .sez-random .testo-random h5#testo-rnd-nome-film, .votazioni .sez-random .testo-random h5#testo-rnd-nome {
-        display: inline-block;
-        font-size: 20px;
-        padding: 20px;
-        margin-bottom: 0;
-        text-transform: uppercase;
-        letter-spacing: 5px; }
-      .votazioni .sez-random .testo-random h5#testo-rnd-nome-film {
-        border-bottom: 1px dotted white; }
-      .votazioni .sez-random .testo-random p#testo-rnd-film {
-        margin-top: 20px;
-        margin-bottom: 50px;
-        text-transform: capitalize;
-        font-size: 18px;
-        letter-spacing: 3px; }

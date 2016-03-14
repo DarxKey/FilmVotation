@@ -1,0 +1,51 @@
+/*
+Error: File to import not found or unreadable: variables.
+       Load paths:
+         /Users/matteo/GitHub/FilmVotation/includes
+         Sass::Globbing::Importer
+        on line 1 of /Users/matteo/GitHub/FilmVotation/includes/votazioni.sass
+
+1: @import 'variables'
+2: //Votazioni
+3: .votazioni
+4:    display: inline-block
+5:    text-align: center
+6:    width: 100%
+
+Backtrace:
+/Users/matteo/GitHub/FilmVotation/includes/votazioni.sass:1
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:415:in `run'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/matteo/Downloads/CodeKit 2.3.8/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: variables.\A        Load paths:\A          /Users/matteo/GitHub/FilmVotation/includes\A          Sass::Globbing::Importer\A         on line 1 of /Users/matteo/GitHub/FilmVotation/includes/votazioni.sass\A \A 1: @import 'variables'\A 2: //Votazioni\A 3: .votazioni\A 4:    display: inline-block\A 5:    text-align: center\A 6:    width: 100%"; }

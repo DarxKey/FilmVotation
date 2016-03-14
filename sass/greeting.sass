@@ -16,9 +16,13 @@ section.greeting
          padding: 20px
 
    .bottom-greeting
-      h3
-      .pres-creatori
+      padding: 0
 
+      h3
+         color: #fff
+
+      .pres-creatori
+         padding: 15px
 
          .pres-singolo
             display: inline-block
@@ -32,8 +36,17 @@ section.greeting
                   border-radius: 50%
 
                h3
+                  margin-top: 12px
                   color: #fff
 
             .bottom-pres-singolo
                padding: 5px
                border-top: 1px solid #fff
+
+
+@media screen and (max-width: 768px)
+   section.greeting .bottom-greeting .pres-creatori .pres-singolo
+      width: 90%
+
+      .bottom-pres-singolo
+         padding: 0px
