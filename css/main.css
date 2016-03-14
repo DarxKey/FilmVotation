@@ -1,3 +1,18 @@
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.let-xs-small {
+  letter-spacing: 1px; }
+
+.let-small {
+  letter-spacing: 3px; }
+
+.let-med {
+  letter-spacing: 5px; }
+
 html {
   height: 100%;
   width: 100%;
@@ -90,9 +105,13 @@ button.btn-fucsia {
   font-weight: bold; }
 
 .header {
-  background-color: red; }
+  background-color: #87CEFA; }
   .header h1 {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 0;
+    padding: 40px;
+    color: #fff;
+    font-size: 42px; }
   .header .menu-icon {
     text-align: center;
     text-transform: uppercase;
@@ -104,8 +123,13 @@ button.btn-fucsia {
     text-align: center;
     text-transform: uppercase;
     padding: 20px;
+    margin-bottom: 0;
     letter-spacing: 5px;
     color: #3E4FB2; }
+  .main-content p {
+    margin-top: 0;
+    padding: 15px;
+    text-align: center; }
 
 .votazioni {
   display: inline-block;
@@ -118,6 +142,8 @@ button.btn-fucsia {
     font-weight: bold;
     padding: 20px;
     text-transform: uppercase; }
+  .votazioni .sez-random#rnd-film {
+    background-color: #6495ED; }
   .votazioni .sez-random {
     padding: 20px; }
     .votazioni .sez-random .pres-random h4 {
@@ -190,6 +216,9 @@ button.btn-fucsia {
   body {
     background-color: #ccc; }
 
+  .cont-carte .main-card:last-child {
+    margin-bottom: 50px; }
+
   .main-card {
     display: block;
     margin: 0 auto;
@@ -200,7 +229,7 @@ button.btn-fucsia {
     -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
     -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
     box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
     .main-card .top-card {
       background-color: #3E4FB2;
       color: #fff; }
