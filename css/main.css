@@ -109,8 +109,8 @@
 .let-med {
   letter-spacing: 5px; }
 
-#best-movie {
-  color: #ff2670;
+.best-movie {
+  color: #ff2670 !important;
   font-weight: bold; }
 
 .main-card {
@@ -390,6 +390,10 @@ section.greeting {
     width: 90%; }
     section.greeting .bottom-greeting .pres-creatori .pres-singolo .bottom-pres-singolo {
       padding: 0px; } }
+.best-movie {
+  color: #ff2670;
+  font-weight: bold; }
+
 html {
   height: 100%;
   width: 100%;

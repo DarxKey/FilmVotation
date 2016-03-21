@@ -25,7 +25,9 @@ var main = function() {
     $('.container').animate({
       opacity: "1.0"
    }, 200);
+
 });
 };
+
 
 $(document).ready(main);
